@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SukhadaMAINPG</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="mainpg.css">
+  <link rel="stylesheet" href="search.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="https://kit.fontawesome.com/f45ca5c192.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.anychart.com/releases/8.0.0/js/anychart-base.min.js"></script>
+</head>
+<body>
+  <nav>
+  <div class="topnav">
+    <div class="search">
+        <input type="text" class="search__input" placeholder="Type your text">
+        <button class="search__button">
+            <svg class="search__icon" aria-hidden="true" viewBox="0 0 20 20">
+                <g>
+                    <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                </g>
+            </svg>
+        </button>
+    </div>
+    <div class="nav-noti">
+        <i class="noti-icon fa-sharp fa-regular fa-bell fa-fade fa-xl" style="color: #e89f4a;"></i>
+        <span class="nav-t">Next reminder at 10:00 pm</span> 
+    </div>
+    <div class="icon">
+        <i class="fa-solid fa-gear fa-shake fa-xl" style="color: #2b2323;"></i>
+    </div>
+  </div>
+</nav>
+
+  <div class="intersection"><img class="logo2" src="images/logopg2.png"></div>
+  <nav>
+  <div class="sidenav">
+    <div class="menu-item"><button class="side-btn"> <a class="nav-link" href="mainpg.html">Overview</a></button></div>
+    <div class="menu-item"><button class="side-btn"> Connect</button></div>
+    <div class="menu-item"><button class="side-btn"> Health Monitoring</button></div>
+    <div class="menu-item"><button class="side-btn"> Blogs</button></div>
+    <div class="menu-item"><button class="side-btn"> My Reminder</button></div>
+    <div class="menu-item"><button class="side-btn"> Help</button></div>
+  </div>
+</nav>
+<div class="cn">
+    <img class="cnnc" src="images/Frame 427319208.png" alt="" srcset="">
+</div>
+<!-- <div class="row">
+  <div class="col-lg-9 page_view">
+         <p>Notification</p>
+         <div class="text-container c1">
+          <div class="row">
+        <div class="col-lg-3">
+          <img class="circle" src="images/Ellipse 34.png" alt="Icon" class="icon">
+        </div>
+        <div class="col-lg-6">
+          <span class="text">Hey, how you doing?? Just recived your message  </span>
+        </div>
+        <div class="col-lg-3 p21">
+          <span class="text p1">1 day</span>
+        </div>
+        </div>
+        </div>
+        <div class="text-container c2">
+          <div class="row">
+            <div class="col-lg-3">
+              <img class="circle" src="images/Ellipse 35.png" alt="Icon" class="icon">
+            </div>
+            <div class="col-lg-6">
+              <span class="text">Hey, Can you check the latest documents</span>
+            </div>
+            <div class="col-lg-3 p21">
+              <span class="text p1">1 day</span>
+            </div>
+            </div>
+        </div>
+        <div class="text-container c3">
+          <div class="row">
+            <div class="col-lg-3 ">
+              <img class="circle"     src="images/Ellipse 35.png" alt="Icon" class="icon">
+            </div>
+            <div class="col-lg-6">
+              <span class="text">PFA.fig file with documents containing..</span>
+            </div>
+            <div class="col-lg-3 p21">
+              <span class="text p1">1 day</span>
+            </div>
+            </div>
+        </div>   
+  </div>
+  <div class="col-lg-3 page_view2">
+    <p>Reminder</p>
+    <div class="text-container2 pd1">
+      <span class="text">This is a sample text with an icon.</span>
+      <img class="circle" src="images/3 1.png" alt="Icon" class="icon">
+    </div>
+
+    <div class="text-container2 pd2">
+      <span class="text">This is a sample text with an icon.</span>
+      <img class="circle" src="images/image 97.png" alt="Icon" class="icon">
+    </div>
+
+    <div class="text-container2 pd2">
+      <span class="text">This is a sample text with an icon.</span>
+      <img class="circle" src="images/image 98.png" alt="Icon" class="icon">
+    </div>
+
+    <div class="text-container2 pd2">
+      <span class="text">This is a sample text with an icon.</span>
+      <img class="circle" src="images/Group 107 1.png" alt="Icon" class="icon">
+    </div>
+    !-- <div class="text-container2 pd2">
+      <span class="text">This is a sample text with an icon.</span>
+      <img src="icon.png" alt="Icon" class="icon">
+    </div>
+
+    <div class="text-container2 pd2">
+      <span class="text">This is a sample text with an icon.</span>
+      <img src="icon.png" alt="Icon" class="icon">
+    </div>
+
+    <div class="text-container2 pd2">
+      <span class="text">This is a sample text with an icon.</span>
+      <img src="icon.png" alt="Icon" class="icon">
+    </div> --
+  </div>
+</div> -->
+<!-- <div class="row">
+  <div class="col-lg-9 page_view3">
+    <img class="grp" src="images/graph.png" alt="" srcset="">
+  </div>
+  <div class="col-lg-3 page_view2">
+  <span>Messages</span>
+  !-- <div class="text-container2 pd2">
+    <span class="text">This is a sample text with an icon.</span>
+    <img src="icon.png" alt="Icon" class="icon">
+  </div>
+  <div class="text-container2 pd2">
+    <span class="text">This is a sample text with an icon.</span>
+    <img src="icon.png" alt="Icon" class="icon">
+  </div> --
+  <img class="grp2" src="images/Frame 427319203.png" alt="" srcset="">
+
+  </div> -->
+</div>
+  <script src="script.js"></script>
+</body>
+</html>

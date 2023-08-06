@@ -1,0 +1,129 @@
+#title{
+  /* background-image: url("images/bgorg.png"); */
+  background: url('images/background.png')no-repeat;
+  background-position: center;
+  /* width: 102vw; */
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+} 
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight:800;
+}
+.container-fluid{
+  padding: 0% 0%;
+}
+
+/* navbar */
+nav{
+  padding: 0%;
+}
+.navbar{
+  padding: 0;
+  background-color: rgba(248, 249, 250, 0.5);
+  /* overflow-y: auto; */
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 50%;
+  /* margin: 0%; */
+  /* opacity: 0.5; */
+}
+/* .nav-link{
+  /* color: #8f8f8f; *
+} */
+.navbar-brand{
+  font-family: 'Montessrat', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-left: 2%;
+}
+
+.logo_img{
+  width: 40px;
+  height: 40px;
+}
+.nav-item{
+  padding: 0 12px;
+  font-family: 'Montessrat-ExtraLight', sans-serif;
+  color: #131313;
+}
+.color1{
+  color: #1a1a1a;
+
+}
+
+.content1{
+  padding-left: 10%;
+}
+
+.rowft{
+  padding-top: 5%;
+  padding-bottom: 0%;
+  /* padding-right: 0% ; */
+}
+.text-img{
+  padding-top: 20%;
+  height: 80%;
+  width: 150%;
+}
+
+/* download button */
+.download-btn{
+  margin: 5% 3% 5% 0;
+  /* margin-left: 25%; */
+  /* padding-left: 25%; */
+}
+/* app image */
+.main-image{
+  width: 80%;
+  padding-right: 17%;
+  transform:translateX(100px);
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.btnpding1{
+  /* padding-left: 25%; */
+  margin-left: 36%;
+  /* margin-top: 0%; */
+}
+
+/* features section */
+#features{
+  /* margin-top: 100px; */
+  text-align: center;
+  padding: 7% 10%;
+  /* height: 200px; */
+}
+h3{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 1.38rem;
+  font-weight: bolder;
+  padding: 0 5%;
+
+}
+.ft-data{
+  color: #8f8f8f;
+}
+.ft-icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+  /* size: 45px; */
+}
+.ft-icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonial section */
+
+#testimonials{
+  padding: 7% 15%;
+}
